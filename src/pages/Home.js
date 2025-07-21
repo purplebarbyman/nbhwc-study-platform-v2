@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react';
 
 function Home() {
-  return <h2>Home Page</h2>;
+  return (
+    <div>
+      <h1>NBHWC Study platform</h1>
+      <p>let's get studying!</p>
+    </div>
+  );
 }
 
 export default Home;

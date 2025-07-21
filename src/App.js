@@ -1,11 +1,18 @@
-import React from "react";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Quiz from './pages/Quiz';
+import Flashcards from './pages/Flashcards';
 
 function App() {
   return (
-    <div style={{ textAlign: "center", paddingTop: "2rem" }}>
-      <h1>NBHWC Study platform</h1>
-      <p>let's get studying!</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/flashcards" element={<Flashcards />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react';
 
 function Flashcards() {
-  return <h2>Flashcards Page</h2>;
+  return (
+    <div>
+      <h2>Flashcards Page (Coming Soon)</h2>
+    </div>
+  );
 }
 
 export default Flashcards;
