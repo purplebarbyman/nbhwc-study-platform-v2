@@ -1,3 +1,7 @@
 import React from "react";
-const Quiz = () => <h2>Quiz Component (Coming Soon)</h2>;
+
+function Quiz() {
+  return <h2>Quiz Page</h2>;
+}
+
 export default Quiz;

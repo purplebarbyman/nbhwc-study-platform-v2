@@ -1,3 +1,7 @@
 import React from "react";
-const Home = () => <h1>Welcome to NBHWC Study Platform</h1>;
+
+function Home() {
+  return <h2>Home Page</h2>;
+}
+
 export default Home;

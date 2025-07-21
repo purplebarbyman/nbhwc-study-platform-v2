@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 
 function App() {
   return (
-    <div>
-      <h1>NBHWC Study Platform</h1>
-      <p>Let's get studying!</p>
-      {/* Add navigation, flashcards, quiz links etc */}
+    <div style={{ textAlign: "center", paddingTop: "2rem" }}>
+      <h1>NBHWC Study platform</h1>
+      <p>let's get studying!</p>
     </div>
   );
 }

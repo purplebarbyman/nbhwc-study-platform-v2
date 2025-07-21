@@ -1,3 +1,7 @@
 import React from "react";
-const Flashcards = () => <h2>Flashcards Component (Coming Soon)</h2>;
+
+function Flashcards() {
+  return <h2>Flashcards Page</h2>;
+}
+
 export default Flashcards;
