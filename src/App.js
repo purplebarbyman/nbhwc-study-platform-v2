@@ -1,18 +1,12 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Quiz from "./pages/Quiz";
-import Flashcards from "./pages/Flashcards";
+import React from 'react';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/quiz" element={<Quiz />} />
-        <Route path="/flashcards" element={<Flashcards />} />
-      </Routes>
-    </Router>
+    <div>
+      <h1>NBHWC Study Platform</h1>
+      <p>Let's get studying!</p>
+      {/* Add navigation, flashcards, quiz links etc */}
+    </div>
   );
 }
 
